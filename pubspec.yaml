@@ -40,7 +40,13 @@ dependencies:
   firebase_auth: ^3.11.0
   firebase_storage: ^10.3.10
   cloud_firestore: ^3.5.0
-
+  brasil_fields: ^1.6.0
+  intl: ^0.17.0
+  validadores: ^1.0.5
+  cpf_cnpj_validator: ^2.0.0
+  image_picker: ^0.8.6
+  carousel_pro: ^1.0.0
+  url_launcher: ^6.1.6
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -66,6 +72,9 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - imagens/logo.png
+    - imagens/tv.jpg
+    - imagens/carro.jpg
+    - imagens/bicicleta.jpg
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
